@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.a4267b55.css",
-    "main.js": "/React-Portfolio/static/js/main.58fcdf08.js",
+    "main.css": "/React-Portfolio/static/css/main.8b546351.css",
+    "main.js": "/React-Portfolio/static/js/main.34fc1347.js",
     "static/media/GANs.png": "/React-Portfolio/static/media/GANs.fdc15f04c99cf274fbe3.png",
     "static/media/project1.png": "/React-Portfolio/static/media/project1.99567130c1d99345edb3.png",
     "static/media/FastRCNN.png": "/React-Portfolio/static/media/FastRCNN.df803efa378559e35e2e.png",
@@ -9,12 +9,13 @@
     "static/media/MSTLogo.png": "/React-Portfolio/static/media/MSTLogo.c1aa9738c6d5c240fb30.png",
     "static/media/ShivaResume2.pdf": "/React-Portfolio/static/media/ShivaResume2.dfe8303658c2b51fb5b7.pdf",
     "static/media/Zenitsu.jpeg": "/React-Portfolio/static/media/Zenitsu.bc94c0db175f60e2d277.jpeg",
+    "static/media/SRKlogo.png.avif": "/React-Portfolio/static/media/SRKlogo.png.2e6fec20486d0a345838.avif",
     "index.html": "/React-Portfolio/index.html",
-    "main.a4267b55.css.map": "/React-Portfolio/static/css/main.a4267b55.css.map",
-    "main.58fcdf08.js.map": "/React-Portfolio/static/js/main.58fcdf08.js.map"
+    "main.8b546351.css.map": "/React-Portfolio/static/css/main.8b546351.css.map",
+    "main.34fc1347.js.map": "/React-Portfolio/static/js/main.34fc1347.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4267b55.css",
-    "static/js/main.58fcdf08.js"
+    "static/css/main.8b546351.css",
+    "static/js/main.34fc1347.js"
   ]
 }
