@@ -21,19 +21,22 @@ const Testimonials = () => {
 
       <div className="container">
         <Swiper
-          slidesPerView={1}
-          spaceBetween={30}
-          breakpoints={{
-            601: { slidesPerView: 2 },
-            1025: { slidesPerView: 3 },
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Pagination, Autoplay]}
-          autoplay={true}
-          className="mySwiper"
-        >
+  modules={[Pagination]}
+  spaceBetween={20}
+  slidesPerView={1}
+  centeredSlides={true}
+  pagination={{ clickable: true }}
+  breakpoints={{
+    768: {
+      slidesPerView: 2,
+      centeredSlides: false,
+    },
+    1024: {
+      slidesPerView: 3,
+      centeredSlides: false,
+    },
+  }}
+>
           {testimonials.map((testimonial) => (
             <SwiperSlide key={testimonial.id}>
               <Testimonial testimonial={testimonial} />

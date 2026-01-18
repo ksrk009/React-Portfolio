@@ -38,3 +38,37 @@
 .swiper-pagination-bullet {
   background: var(--color-primary);
 }
+
+/* @media screen and (max-width: 768px) {
+  .swiper {
+    padding-bottom: 4rem;
+  }
+
+  .swiper-wrapper {
+    justify-content: center;
+  }
+
+  .swiper-slide {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+} */
+@media screen and (max-width: 768px) {
+
+  .swiper {
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  width: 90%;
+  max-width: 420px;
+}
+
+}

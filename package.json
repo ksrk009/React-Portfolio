@@ -2,17 +2,20 @@
   "name": "react",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://ksrk009.github.io/React-Portfolio",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
+    "@types/react-scrollspy": "3.3.9",
+    "ajv": "^8.12.0",
+    "ajv-keywords": "^3.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0",
     "react-icons": "5.5.0",
-    "swiper": "12.0.3",
-    "@types/react-scrollspy": "3.3.9",
+    "react-scripts": "^5.0.1",
+    "react-scrollspy-nav": "1.3.0",
     "react-scrollspy-navigation": "2.0.7",
-    "react-scrollspy-nav": "1.3.0"
+    "swiper": "12.0.3"
   },
   "devDependencies": {
     "@types/react": "19.0.0",
@@ -24,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",

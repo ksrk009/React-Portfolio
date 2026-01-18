@@ -31,30 +31,7 @@ const data = [
       "Developed and deployed machine learning and deep learning models for computer vision and predictive analytics use cases. Built data pipelines and training workflows to support model experimentation and optimization. Worked closely with application requirements to deliver low-latency, production-oriented AI systems.",
     duration: "April 2021 - August 2021",
   },
-  // {
-  //   id: 5,
-  //   question: "Is hosting and domain registration inclusive in your pricing?",
-  //   answer:
-  //     "No! Hosting and domain is taken care of seperately. You can pay for it or take care of it on your own if you know how to.",
-  // },
-  // {
-  //   id: 4,
-  //   question: "How much do you charge for an average website or app?",
-  //   answer:
-  //     "Once again, this depends. But my prices are affordable so you're good.",
-  // },
-  // {
-  //   id: 3,
-  //   question: "What's your payment plan?",
-  //   answer:
-  //     "Payment is divided into 3. An initial 30% upfront payment to get me started once all the details of the projec is set, 40% once the project is completed, and 30% once the project is delivered.",
-  // },
-  // {
-  //   id: 6,
-  //   question: "What if the project doesn't turn out good?",
-  //   answer:
-  //     "You will be a part of the process from the start. You will know how the whole project is going until the end. And I will make sure to give you the best.",
-  // },
+  
 ];
 
 export default data;
